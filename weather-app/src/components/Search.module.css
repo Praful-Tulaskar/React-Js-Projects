@@ -1,0 +1,12 @@
+.search{
+    /* display: inline-block; */
+    width: min(400px, 70%);
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px;
+}
+.searchBox{
+    margin: auto;
+    padding: 20px 0px;
+}

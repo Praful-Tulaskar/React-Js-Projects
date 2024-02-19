@@ -1,0 +1,30 @@
+.resultData{
+    border-right: 1px solid black;
+    min-width: 66%;
+}
+.resultData > h2{
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+.resultData > div > div {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.showHistory{
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+
+@media only screen and (max-width: 768px){
+    .resultData{
+        border: none;
+        min-width: 100%;
+    }
+    .resultContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
